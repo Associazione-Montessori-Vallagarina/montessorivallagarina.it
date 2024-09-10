@@ -1,0 +1,5 @@
+site_name: Associazione Montessori Vallagarina
+nav:
+  - Home: index.md
+theme:
+  name: material
