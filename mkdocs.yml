@@ -1,7 +1,0 @@
-site_name: Associazione Montessori Vallagarina
-site_url: https://montessorivallagarina.it
-nav:
-  - Benvenuti: index.md
-  - Contatta l'associazione: contatti.md
-theme:
-  name: material
