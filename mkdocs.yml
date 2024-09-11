@@ -5,3 +5,5 @@ nav:
   - Contatta l'associazione: contatti.md
 theme:
   name: material
+extra_files:
+  - CNAME
