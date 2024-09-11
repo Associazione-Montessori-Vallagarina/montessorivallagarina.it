@@ -1,4 +1,5 @@
 site_name: Associazione Montessori Vallagarina
+site_url: https://montessorivallagarina.it
 nav:
   - Home: index.md
 theme:
