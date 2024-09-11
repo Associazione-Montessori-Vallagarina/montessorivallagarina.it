@@ -1,14 +1,2 @@
 
-## Contattare l'associazione
-
-[montessorivallagarina@gmail.com](mailto:montessorivallagarina@gmail.com)
-
-### Sito internet, suggerimenti e segnalazioni
-
-[montessori@corallo.mozmail.com](mailto:montessori@corallo.mozmail.com).
-
-## Dati dell'associazione
-
-Associazione Montessori Vallagarina<br>
-Codice Fiscale: 94050320228<br>
-Sede: Via Dante, 50 - 38068 Rovereto TN
+Siamo in gruppo di genitori che ha lo scopo di promuovere il metodo Montessori e le sue buone pratiche; affinché possa diffondersi ed essere accolto tra le famiglie e in altre sezioni di scuole dell'Infanzia e Primaria, oltre a quelle già esistenti.
