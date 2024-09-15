@@ -8,3 +8,5 @@ nav:
   - Contatta l'associazione: contatti.md
 theme:
   name: material
+extra_javascript:
+  - js/analytics.js
