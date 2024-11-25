@@ -1,3 +1,4 @@
+![](immagini/aula.jpg)
 
 ## Indirizzo email principale
 

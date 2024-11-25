@@ -1,3 +1,4 @@
+![](immagini/aula.jpg)
 
 Documenti necessari per entrare a far parte dell'associazione.
 

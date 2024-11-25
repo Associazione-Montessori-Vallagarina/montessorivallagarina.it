@@ -3,7 +3,7 @@ site_url: https://montessorivallagarina.it
 nav:
   - Benvenuti: index.md
   - Adesione: adesione.md
-  - Blog:
+  - Eventi:
     - Dicembre 2024: blog/2024-12.md
     - Luglio 2024: blog/2024-07.md
   - Contatta l'associazione: contatti.md
