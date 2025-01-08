@@ -8,14 +8,11 @@ Siamo un gruppo di genitori, insegnanti e simpatizzanti che ha lo scopo di promu
 
 # Prossimi appuntamenti
 
-## Open day sezione Montessori
-11 dicembre 2024
+## Incontri informativi per genitori
+14 gennaio 2025
 
-![Open day](blog/2024-12-11.jpg)
+**Iscrizione obbligatoria** - [Clicca qui](https://accorcia.to/3uk3) per iscriverti agli incontri.
 
-## Incontro autunnale
-7 dicembre 2024
+[Clicca qui](adesione) per iscriverti all'Associazione Montessori Vallagarina (anno 2025).
 
-[Clicca qui per iscriverti](https://forms.gle/VxTKT7AcPJg5NEAm9)
-
-![Incontro autunnale](blog/2024-12-07.jpg)
+![Incontri informativi](blog/2025-01-14.jpg)
