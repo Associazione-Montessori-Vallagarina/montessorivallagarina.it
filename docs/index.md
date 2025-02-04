@@ -14,11 +14,15 @@
 
 # Prossimi appuntamenti
 
-## Incontri informativi per genitori
-14 gennaio 2025
+## Rielaborazione del lutto
+15 febbraio 2025
 
-**Iscrizione obbligatoria** - [Clicca qui](https://accorcia.to/3uk3) per iscriverti agli incontri.
+![Rielaborazione del lutto](blog/2025-02-15.jpg)
 
-[Clicca qui](adesione) per iscriverti all'Associazione Montessori Vallagarina (anno 2025).
+Per il pagamento della quota di partecipazione all'evento (5 o 10 euro in caso di iscrizione ad entrambi gli incontri) e la quota associativa fare due bonifici distinti con come causale rispettivamente *"Quota di partecipazione all'evento Rielaborazione del lutto - nome e cognome"* e *"Quota associativa anno 2025 - nome cognome"*.
 
-![Incontri informativi](blog/2025-01-14.jpg)
+
+```
+Associazione Montessori Vallagarina
+IBAN IT33O0801120800000033314717
+```
