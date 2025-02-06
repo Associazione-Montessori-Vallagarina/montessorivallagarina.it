@@ -19,7 +19,7 @@
 
 ![Rielaborazione del lutto](blog/2025-02-15.jpg)
 
-Per il pagamento della quota di partecipazione all'evento (5 o 10 euro in caso di iscrizione ad entrambi gli incontri) e la quota associativa fare due bonifici distinti con come causale rispettivamente *"Quota di partecipazione all'evento Rielaborazione del lutto - nome e cognome"* e *"Quota associativa anno 2025 - nome cognome"*.
+Per il pagamento della quota di partecipazione all'evento (5 o 10 euro in caso di iscrizione ad entrambi gli incontri) e la quota associativa fare **un unico bonifico** con come causale "Quota partecipazione evento Rielaborazione del lutto - quota associativa 2025 - nome cognome".
 
 
 ```
