@@ -12,5 +12,6 @@ nav:
   - Contatta l'associazione: contatti.md
 theme:
   name: material
+  logo: immagini/logo.png
 extra_javascript:
   - js/analytics.js
