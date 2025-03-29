@@ -14,13 +14,14 @@
 
 # Prossimi appuntamenti
 
-## Rielaborazione del lutto
-15 febbraio 2025
+## Un pomeriggio nell'orto
+12 aprile 2025
 
-![Rielaborazione del lutto](blog/2025-02-15.jpg)
+**Iscrizione obbligatoria** - [Clicca qui](https://accorcia.to/426l) per iscriverti all'incontro.
 
-Per il pagamento della quota di partecipazione all'evento (5 o 10 euro in caso di iscrizione ad entrambi gli incontri) e la quota associativa fare **un unico bonifico** con come causale "Quota partecipazione evento Rielaborazione del lutto - quota associativa 2025 - nome cognome".
+[Clicca qui](adesione) per iscriverti all'Associazione Montessori Vallagarina (anno 2025).
 
+![Pomeriggio nell'orto](blog/2025-04-12.jpg)
 
 ```
 Associazione Montessori Vallagarina
