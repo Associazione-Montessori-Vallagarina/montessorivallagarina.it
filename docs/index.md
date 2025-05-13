@@ -14,14 +14,23 @@
 
 # Prossimi appuntamenti
 
-## Un pomeriggio nell'orto
-12 aprile 2025
+[Clicca qui per iscriverti agli incontri](https://forms.gle/C4oZ2YyJpuHTMJuo7)
 
-**Iscrizione obbligatoria** - [Clicca qui](https://accorcia.to/426l) per iscriverti all'incontro.
+## Toccare un concetto
+4 giugno 2025
 
-[Clicca qui](adesione) per iscriverti all'Associazione Montessori Vallagarina (anno 2025).
+![](blog/2025-06-04.jpg)
 
-![Pomeriggio nell'orto](blog/2025-04-12.jpg)
+## Una casa a misura di bambino
+28 maggio 2025
+
+![](blog/2025-05-28.jpg)
+
+## Pregiudizi e falsi miti
+21 maggio 2025
+
+![](blog/2025-05-21.jpg)
+
 
 ```
 Associazione Montessori Vallagarina
