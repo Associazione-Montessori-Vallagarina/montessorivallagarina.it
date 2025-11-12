@@ -14,22 +14,13 @@
 
 # Prossimi appuntamenti
 
-[Clicca qui per iscriverti agli incontri](https://forms.gle/C4oZ2YyJpuHTMJuo7)
+## Pomeriggi montessoriani
 
-## Toccare un concetto
-4 giugno 2025
+20 novembre 2025 e 4 dicembre 2025
 
-![](blog/2025-06-04.jpg)
+<a href="https://forms.gle/k86imvpp2Xv7MA5fA" target="_blank">Clicca qui per iscriverti agli incontri</a>
 
-## Una casa a misura di bambino
-28 maggio 2025
-
-![](blog/2025-05-28.jpg)
-
-## Pregiudizi e falsi miti
-21 maggio 2025
-
-![](blog/2025-05-21.jpg)
+![](blog/2025-11-20_04-12.jpg)
 
 
 ```
