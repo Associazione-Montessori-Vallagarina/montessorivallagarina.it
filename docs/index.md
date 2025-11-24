@@ -22,6 +22,15 @@
 
 ![](blog/2025-11-20_04-12.jpg)
 
+## Mettiamoci le mani
+
+29 novembre 2025
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfA4_aLRkZNkpppgoGavx1EJRsF50RvFaUlAwlrGKn24cxv9A/viewform?usp=sharing&ouid=107754790484208339640" target="_blank">Clicca qui per iscriverti all'incontro</a>
+
+![](blog/2025-11-29.jpg)
+
+
 
 ```
 Associazione Montessori Vallagarina
