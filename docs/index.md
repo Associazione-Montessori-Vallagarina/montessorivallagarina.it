@@ -16,7 +16,9 @@
 
 ## Pomeriggi montessoriani
 
-20 novembre 2025 e 4 dicembre 2025
+20 novembre 2025 e <del>4 dicembre 2025</del> 3 dicembre 2025
+
+È stata cambiata la data del secondo incontro.
 
 <a href="https://forms.gle/k86imvpp2Xv7MA5fA" target="_blank">Clicca qui per iscriverti agli incontri</a>
 
