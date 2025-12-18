@@ -14,23 +14,21 @@
 
 # Prossimi appuntamenti
 
-## Pomeriggi montessoriani
+## Corso per genitori: Litigare bene
 
-20 novembre 2025 e <del>4 dicembre 2025</del> 3 dicembre 2025
+21 febbraio e 21 marzo 2026
 
-È stata cambiata la data del secondo incontro.
+[Clicca qui per maggiori informazioni](blog/2026-02_03_litigare_bene.md)
 
-<a href="https://forms.gle/k86imvpp2Xv7MA5fA" target="_blank">Clicca qui per iscriverti agli incontri</a>
+![](blog/Litigare bene genitori.png)
 
-![](blog/2025-11-20_04-12.jpg)
+## Corso di aggiornamento per insegnanti
 
-## Mettiamoci le mani
+tra febbraio e maggio 2026
 
-29 novembre 2025
+[Clicca qui per maggiori informazioni](blog/2026_corso_insegnanti_matematica.md)
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSfA4_aLRkZNkpppgoGavx1EJRsF50RvFaUlAwlrGKn24cxv9A/viewform?usp=sharing&ouid=107754790484208339640" target="_blank">Clicca qui per iscriverti all'incontro</a>
-
-![](blog/2025-11-29.jpg)
+![](blog/Psicoaritmetica e psicogeometria avanzate.png)
 
 
 
