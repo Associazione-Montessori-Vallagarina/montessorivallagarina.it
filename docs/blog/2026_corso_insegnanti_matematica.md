@@ -45,6 +45,8 @@ CAUSALE PER CHI **NON** DEVE PAGARE ANCHE LA QUOTA ASSOCIATIVA (perché già pag
 
 L'Associazione Montessori Vallagarina propone un corso di aggiornamento online suddiviso in 6 incontri, ciascuno dedicato ad una tematica specifica di psicoaritmetica e psicogeometria avanzate. Il corso è tenuto dalla formatrice Montessori Nadia Tunesi e dall'insegnante Montessori Paola Spertini.
 
+<a href="../proposta corso online montessori.pdf" target="_blank">Scarica il pdf con il programma del corso</a>.
+
 #### Nadia Tunesi
 
 Attualmente Direttrice della Scuola Montessori la Casa di Irma di Bedano che
