@@ -2,6 +2,14 @@ tra febbraio e maggio 2026
 
 ![](Psicoaritmetica e psicogeometria avanzate.png)
 
+### Iscrizione
+
+<a href="https://forms.gle/bv8LM5zQfafUKL5E8" target="_blank">Link per iscriversi all’Associazione Montessori Vallagarina</a>
+
+
+<a href="https://forms.gle/w3fd9TcfDG9NZG3ZA" target="_blank">Link per iscriversi al corso di Psicoaritmetica e psicogeometria avanzate</a>
+
+
 ### Costo del corso
 
 - 30 euro per 1 incontro + quota associativa*
