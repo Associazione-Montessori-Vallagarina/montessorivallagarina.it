@@ -14,21 +14,21 @@
 
 # Prossimi appuntamenti
 
-## Corso per genitori: Litigare bene
+## Giochi di circo per grandi e piccini al Bosco della Città con Oppetelà Circo Botanico
 
-21 febbraio e 21 marzo 2026
+Sabato 19 settembre, 14.30-16.30
 
-[Clicca qui per maggiori informazioni](blog/2026-02_03_litigare_bene.md)
+Ritrovo: parcheggio alto Bosco della Città di Rovereto
 
-![](blog/Litigare bene genitori.png)
+Genitori e bambini dai 5 anni possono giocare e divertirsi assieme
 
-## Corso di aggiornamento per insegnanti
+Abbigliamento comodo, scarpe da ginnastica e borraccia
 
-tra febbraio e maggio 2026
+Attività gratuita
 
-[Clicca qui per maggiori informazioni](blog/2026_corso_insegnanti_matematica.md)
+Necessaria l'iscrizione di un genitore all'associazione Montessori Vallagarina (costo 10 euro) che garantisce la partecipazione anche ai futuri laboratori fino a dicembre.
 
-![](blog/Psicoaritmetica e psicogeometria avanzate.png)
+<a href="https://forms.gle/29vQXyaX3vGcTU1q8" target="_blank">Clicca qui per prenotarsi all'attività</a>
 
 
 
