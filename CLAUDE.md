@@ -44,15 +44,31 @@ All commands assume the local virtualenv in `venv/` (created from `requirements.
 **An event post always goes in two places:** the blog archive and the home page. Keep the wording
 of the two copies the same.
 
+An event usually comes as a flyer image that already carries all the details. The post is just a
+short title, the date on the next line, and the flyer — **never copy the flyer's text into the page**:
+
+```markdown
+## Giochi di circo
+19 settembre 2026
+
+![](2026-09-19.jpg)
+```
+
+When the association supplies a separate description text for the event, put it below the flyer,
+verbatim.
+
 1. **Blog archive** — there is one page per month, `docs/blog/YYYY-MM.md` (older posts sometimes use
    a descriptive slug instead). Append the post as a new `## Titolo` section on that month's page,
-   creating the file if the month has none yet. Put any images next to it in `docs/blog/`. This
-   section is a **plain archive**: description and date only, **no reservation/registration link**.
+   creating the file if the month has none yet. Save the flyer next to it in `docs/blog/`, named
+   after the event date (`YYYY-MM-DD.jpg`, plus a `_slug` suffix when several events share a date).
+   This section is a **plain archive**: **no reservation/registration link**.
 2. If a new file was created, add it to `nav:` under `Eventi:` in `mkdocs.yml` (top of the list).
-3. **Home page** — add the same post text to `docs/index.md` under `# Prossimi appuntamenti`. The
-   reservation/registration link goes **only here**, as `<a href="..." target="_blank">`. **Remove
-   past events** from this section at the same time (the blog archive keeps them; the home page only
-   shows upcoming ones).
+3. **Home page** — add the same post to `docs/index.md` under `# Prossimi appuntamenti`, with the
+   image path prefixed by `blog/` (links there are relative to `docs/`). The reservation/registration
+   link goes **only here**, below the image, as
+   `<a href="..." target="_blank">Clicca qui per prenotarsi all'attività</a>`. **Remove past events**
+   from this section at the same time (the blog archive keeps them; the home page only shows
+   upcoming ones).
 4. `scripts/serve.sh` to preview, then `scripts/publish.sh` to deploy.
 
 Commit the Markdown/image source to `master`; never commit the `site/` build output or the
