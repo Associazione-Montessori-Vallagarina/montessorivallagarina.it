@@ -2,8 +2,6 @@ site_name: Associazione Montessori Vallagarina
 site_url: https://montessorivallagarina.it
 nav:
   - Benvenuti: index.md
-  - Scuola Primaria di Rovereto: scuola-rovereto.md
-  - Adesione: adesione.md
   - Eventi:
     - Ottobre 2026: blog/2026-10.md
     - Settembre 2026: blog/2026-09.md
@@ -16,6 +14,9 @@ nav:
     - Gennaio 2025: blog/2025-01.md
     - Dicembre 2024: blog/2024-12.md
     - Luglio 2024: blog/2024-07.md
+  - Scuola Primaria di Rovereto: scuola-primaria-rovereto.md
+  - Scuola dell'Infanzia di Rovereto: scuola-infanzia-rovereto.md
+  - Adesione: adesione.md
   - Contatta l'associazione: contatti.md
 theme:
   name: material
