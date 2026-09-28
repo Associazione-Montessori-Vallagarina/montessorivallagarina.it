@@ -54,21 +54,24 @@ short title, the date on the next line, and the flyer — **never copy the flyer
 ![](2026-09-19.jpg)
 ```
 
-When the association supplies a separate description text for the event, put it below the flyer,
-verbatim.
+When the association supplies a separate description text for an event, put it verbatim below that
+event's flyer. If one text describes several events together, put it once as an introduction above
+those events instead.
+
+Each upcoming event also gets its registration link below the flyer, in **both** copies:
+`<a href="..." target="_blank">Clicca qui per prenotarsi all'attività</a>`.
 
 1. **Blog archive** — there is one page per month, `docs/blog/YYYY-MM.md` (older posts sometimes use
    a descriptive slug instead). Append the post as a new `## Titolo` section on that month's page,
    creating the file if the month has none yet. Save the flyer next to it in `docs/blog/`, named
    after the event date (`YYYY-MM-DD.jpg`, plus a `_slug` suffix when several events share a date).
-   This section is a **plain archive**: **no reservation/registration link**.
+   Keep the registration link here only while the event is upcoming; once it has taken place, remove
+   the link and leave the post as a plain archive entry.
 2. If a new file was created, add it to `nav:` under `Eventi:` in `mkdocs.yml` (top of the list).
 3. **Home page** — add the same post to `docs/index.md` under `# Prossimi appuntamenti`, with the
-   image path prefixed by `blog/` (links there are relative to `docs/`). The reservation/registration
-   link goes **only here**, below the image, as
-   `<a href="..." target="_blank">Clicca qui per prenotarsi all'attività</a>`. **Remove past events**
-   from this section at the same time (the blog archive keeps them; the home page only shows
-   upcoming ones).
+   image path prefixed by `blog/` (links there are relative to `docs/`). **Remove past events** from
+   this section at the same time (the blog archive keeps them, minus the registration link; the home
+   page only shows upcoming ones).
 4. `scripts/serve.sh` to preview, then `scripts/publish.sh` to deploy.
 
 Commit the Markdown/image source to `master`; never commit the `site/` build output or the
