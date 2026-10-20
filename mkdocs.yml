@@ -3,6 +3,7 @@ site_url: https://montessorivallagarina.it
 nav:
   - Benvenuti: index.md
   - Eventi:
+    - Novembre 2026: blog/2026-11.md
     - Ottobre 2026: blog/2026-10.md
     - Settembre 2026: blog/2026-09.md
     - Corso aggiornamento insegnanti: blog/2026_corso_insegnanti_matematica.md
@@ -18,6 +19,8 @@ nav:
   - Scuola dell'Infanzia di Rovereto: scuola-infanzia-rovereto.md
   - Adesione: adesione.md
   - Contatta l'associazione: contatti.md
+  - Donazioni: donazioni.md
+  - News: news.md
 theme:
   name: material
   logo: immagini/logo.png
