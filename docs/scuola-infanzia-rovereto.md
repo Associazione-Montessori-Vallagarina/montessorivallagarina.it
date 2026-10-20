@@ -1,4 +1,4 @@
-### Scuola dell'Infanzia di Rovereto Rione Sud "Il giardino incantato"
+### La sezione Montessori si trova presso la scuola dell'Infanzia Giardino Intantato, Rione Sud
 
 Via Venezia, 11 - 38068 Rovereto (TN)
 
