@@ -1,0 +1,24 @@
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 10rem), 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.photo-gallery a {
+  display: block;
+  overflow: hidden;
+  border-radius: 0.25rem;
+}
+
+.photo-gallery a:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+
+.photo-gallery img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}

@@ -24,5 +24,13 @@ nav:
 theme:
   name: material
   logo: immagini/logo.png
+plugins:
+  - search
+  - glightbox:
+      manual: true
+hooks:
+  - gallery.py
+extra_css:
+  - css/gallery.css
 extra_javascript:
   - js/analytics.js
