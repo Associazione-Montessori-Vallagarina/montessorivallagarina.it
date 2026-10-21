@@ -30,6 +30,7 @@ plugins:
       manual: true
 hooks:
   - gallery.py
+  - version.py
 extra_css:
   - css/gallery.css
 extra_javascript:
