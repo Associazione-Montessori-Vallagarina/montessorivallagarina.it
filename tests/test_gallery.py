@@ -43,10 +43,12 @@ class TestGallery(unittest.TestCase):
             site = Path(directory)
             tree = LexborHTMLParser((site / "scuola-infanzia-rovereto/index.html").read_text())
             links = tree.css(".photo-gallery a.glightbox")
-            self.assertEqual(len(links), 7)
-            for number, link in enumerate(links, start=1):
+            self.assertEqual(len(links), 16)
+            names = [*(f"2026-10-20_{number}.jpg" for number in range(1, 8)),
+                     *(f"2026-10-22_{number}.jpg" for number in range(1, 10))]
+            for link, name in zip(links, names):
                 image = link.css_first("img")
-                source = f"../immagini/scuola-infanzia-rovereto/2026-10-20_{number}.jpg"
+                source = f"../immagini/scuola-infanzia-rovereto/{name}"
                 self.assertEqual(link.attributes["href"], source)
                 self.assertEqual(link.attributes["data-gallery"], "scuola-infanzia-rovereto")
                 self.assertEqual(image.attributes["src"], source)
@@ -58,6 +60,7 @@ class TestGallery(unittest.TestCase):
             self.assertIsNotNone(tree.css_first('link[href="../css/gallery.css"]'))
             self.assertTrue((site / "assets/javascripts/glightbox.min.js").is_file())
             self.assertTrue((site / "search/search_index.json").is_file())
+            self.assertFalse((site / "immagini/scuola-infanzia-rovereto/new").exists())
 
     def test_serve_restarts_for_gallery_changes(self) -> None:
         script = (ROOT / "scripts/serve.sh").read_text()

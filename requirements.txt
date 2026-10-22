@@ -3,3 +3,4 @@ mkdocs-material==9.7.7
 mkdocs-glightbox==0.5.2
 # GLightbox 0.5.2 loses wrapped images with selectolax 1.x.
 selectolax==0.3.29
+Pillow==11.3.0

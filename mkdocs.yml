@@ -1,5 +1,7 @@
 site_name: Associazione Montessori Vallagarina
 site_url: https://montessorivallagarina.it
+exclude_docs: |
+  immagini/scuola-infanzia-rovereto/new/
 nav:
   - Benvenuti: index.md
   - Eventi:
