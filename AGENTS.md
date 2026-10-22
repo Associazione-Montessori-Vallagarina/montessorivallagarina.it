@@ -1,4 +1,52 @@
-# Working on the Rovereto school photo gallery
+# Project instructions
+
+This repository is the public website of *Associazione Montessori Vallagarina*, a parents/teachers
+association in Rovereto, Trentino. It is a MkDocs + Material site with mostly Italian Markdown content.
+Match the existing Italian tone and terminology when editing pages.
+
+## Commands
+
+Use the local `venv/` created from `requirements.txt`:
+
+- Set up: `python -m venv venv && venv/bin/pip install -r requirements.txt`.
+- Preview with live reload: `scripts/serve.sh` (serves on port 9000).
+- Test: `venv/bin/python -m unittest discover -s tests`.
+- Build: `venv/bin/mkdocs build --strict` (`site/` is ignored by Git).
+- Deploy only when explicitly requested: `scripts/publish.sh` runs `mkdocs gh-deploy`, which
+  force-pushes `origin/gh-pages`. There is no CI. The live site uses the domain in `docs/CNAME`.
+
+## Site structure and conventions
+
+- `mkdocs.yml` is the site configuration. Its `nav:` is manual: add new event pages under `Eventi:`,
+  newest first, or they will not appear in the menu.
+- `docs/` is the published content root. `docs/blog/` holds dated event pages and their images;
+  image links in those pages are relative to `docs/blog/`. `docs/immagini/` holds shared images;
+  `docs/allegati/` holds downloadable PDFs. Keep `docs/CNAME` intact.
+- `docs/js/analytics.js` is a raw analytics snippet loaded through `extra_javascript`.
+- Pages intentionally mix Markdown and inline HTML (`<span>`, `<br>`, `<a target="_blank">`).
+- Keep the association's IBAN and payment "causale" text consistent across pages; do not improvise
+  either value when editing a payment page.
+- `gallery.py` generates the Rovereto school photo gallery; `tests/` contains the site and gallery tests.
+- Commit Markdown and image sources to `master`, never `site/` or the `gh-pages` branch by hand.
+
+## Adding an event post
+
+An event goes in both the blog archive and the home page, with matching wording. A flyer usually
+already has all the details: use a short title, date, and image; **do not copy text from the flyer**.
+When a separate description is supplied, place it below the flyer. Put shared text for multiple
+events once above those events. Upcoming events need their registration link in both copies:
+`<a href="..." target="_blank">Clicca qui per prenotarsi all'attività</a>`.
+
+1. Append the post to `docs/blog/YYYY-MM.md`, or create the file if needed. Keep its flyer alongside
+   it, named `YYYY-MM-DD.jpg` (add a `_slug` suffix if multiple flyers share a date). Older posts
+   sometimes use a descriptive slug instead of a monthly page. Retain past posts in the archive,
+   but remove their registration links.
+2. Add a newly created blog page to `mkdocs.yml` under `Eventi:`, newest first.
+3. Add the same upcoming post under `# Prossimi appuntamenti` in `docs/index.md`, prefixing the
+   image path with `blog/`. Remove past events from the home page at the same time.
+4. Preview with `scripts/serve.sh`. Deploy with `scripts/publish.sh` only when requested.
+
+## Working on the Rovereto school photo gallery
 
 The public photos are in `docs/immagini/scuola-infanzia-rovereto/`. Incoming **private originals** live
 in its `new/` directory, which Git ignores and MkDocs excludes from publication. Never commit `new/` or
