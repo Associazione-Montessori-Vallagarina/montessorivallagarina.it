@@ -25,6 +25,7 @@ nav:
 theme:
   name: material
   logo: immagini/logo.png
+  favicon: immagini/logo.png
 plugins:
   - search
   - glightbox:
