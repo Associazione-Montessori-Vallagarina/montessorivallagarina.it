@@ -5,7 +5,6 @@ exclude_docs: |
 nav:
   - Benvenuti: index.md
   - Eventi:
-    - Novembre 2026: blog/2026-11.md
     - Ottobre 2026: blog/2026-10.md
     - Settembre 2026: blog/2026-09.md
     - Corso aggiornamento insegnanti: blog/2026_corso_insegnanti_matematica.md
@@ -31,9 +30,12 @@ plugins:
   - glightbox:
       manual: true
 hooks:
+  - events.py
   - gallery.py
   - version.py
 extra_css:
   - css/gallery.css
+  - css/events.css
 extra_javascript:
   - js/analytics.js
+  - js/events.js

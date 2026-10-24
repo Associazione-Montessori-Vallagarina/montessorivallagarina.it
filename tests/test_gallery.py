@@ -65,5 +65,5 @@ class TestGallery(unittest.TestCase):
     def test_serve_restarts_for_gallery_changes(self) -> None:
         script = (ROOT / "scripts/serve.sh").read_text()
         self.assertIn("watchmedo auto-restart -d . -d docs/immagini/scuola-infanzia-rovereto", script)
-        self.assertIn("-p 'gallery.py;version.py;*.jpg;*.jpeg;*.png;*.webp'", script)
+        self.assertIn("-p 'events.py;gallery.py;version.py;*.jpg;*.jpeg;*.png;*.webp'", script)
         self.assertIn("venv/bin/mkdocs serve --livereload -a 0.0.0.0:9000", script)

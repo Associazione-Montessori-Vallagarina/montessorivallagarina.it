@@ -31,6 +31,19 @@ Use the local `venv/` created from `requirements.txt`:
 
 ## Adding an event post
 
+For events from November 2026 onward, create one `docs/blog/YYYY-MM-DD_slug.md` per event with YAML
+front matter (`title`, `event_date: YYYY-MM-DD`, `flyer`, and optional `registration_url`). Place the
+flyer alongside the page; its path is relative to `docs/blog/`. Add any extra description below the
+front matter. The `events.py` hook renders the event heading, date, flyer, description and compact
+share button on both the event page and the monthly archive, as well as the monthly menu entry and
+upcoming home-page entry. Do not add these by hand. Events remain on the home page through their
+event date, and leave it on the next build after that date; the registration link also disappears
+from the event page and monthly archive then. Rebuild/deploy manually for date
+changes to appear on the published site. Existing monthly posts and home-page entries are still
+maintained manually until migrated.
+
+For older monthly posts, use the existing workflow:
+
 An event goes in both the blog archive and the home page, with matching wording. A flyer usually
 already has all the details: use a short title, date, and image; **do not copy text from the flyer**.
 When a separate description is supplied, place it below the flyer. Put shared text for multiple

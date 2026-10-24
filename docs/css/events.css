@@ -1,0 +1,17 @@
+.event-share {
+  display: inline-flex;
+  align-items: center;
+  margin: 0.2em 0 0.4em;
+  padding: 0.15em 0.45em;
+  border: 1px solid currentColor;
+  border-radius: 0.25em;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.event-share:hover,
+.event-share:focus-visible {
+  color: var(--md-accent-fg-color);
+}

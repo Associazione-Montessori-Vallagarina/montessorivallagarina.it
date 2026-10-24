@@ -14,29 +14,7 @@
 
 # Prossimi appuntamenti
 
-
-## Genitori senza mantello
-11 novembre 2026
-
-![](blog/2026-11-07.jpg)
-
-<a href="https://forms.gle/3P2bMHKGmZdxthgS8" target="_blank">Clicca qui per prenotarsi all'attività</a>
-
-## Montessori: mettiamoci le mani
-24 ottobre 2026
-
-![](blog/2026-10-24_mani.jpg)
-
-<a href="https://forms.gle/y12WKLfauqktbm5o7" target="_blank">Clicca qui per prenotarsi all'attività</a>
-
-## Laboratorio di avvicinamento alla musica
-24 ottobre 2026
-
-![](blog/2026-10-24_musica.jpg)
-
-<a href="https://forms.gle/asuFKAuHkGRJhGrT8" target="_blank">Clicca qui per prenotarsi all'attività</a>
-
-![](blog/2026-09.jpg)
+<!-- prossimi eventi -->
 
 ```
 Associazione Montessori Vallagarina
