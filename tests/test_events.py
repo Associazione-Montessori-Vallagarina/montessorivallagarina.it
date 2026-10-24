@@ -45,12 +45,14 @@ class TestEvents(unittest.TestCase):
             ])
 
     def test_home_shows_event_until_its_date(self) -> None:
+        event = replace(EVENT, description="Una descrizione con **dettagli**.")
         for day in (date(2026, 11, 10), EVENT.date):
             with self.subTest(day=day):
-                upcoming = _upcoming([EVENT], day)
+                upcoming = _upcoming([event], day)
                 self.assertIn("blog/2026-11-11_genitori-senza-mantello.md", upcoming)
                 self.assertIn("blog/2026-11-07.jpg", upcoming)
                 self.assertIn(EVENT.registration_url, upcoming)
+                self.assertIn("Una descrizione con **dettagli**.", upcoming)
                 self.assertIn('data-share-url="blog/2026-11-11_genitori-senza-mantello/"', upcoming)
 
         self.assertEqual(_upcoming([EVENT], date(2026, 11, 12)), "")

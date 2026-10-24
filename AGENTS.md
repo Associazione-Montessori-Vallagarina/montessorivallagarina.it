@@ -36,11 +36,11 @@ front matter (`title`, `event_date: YYYY-MM-DD`, `flyer`, and optional `registra
 flyer alongside the page; its path is relative to `docs/blog/`. Add any extra description below the
 front matter. The `events.py` hook renders the event heading, date, flyer, description and compact
 share button on both the event page and the monthly archive, as well as the monthly menu entry and
-upcoming home-page entry. Do not add these by hand. Events remain on the home page through their
-event date, and leave it on the next build after that date; the registration link also disappears
-from the event page and monthly archive then. Rebuild/deploy manually for date
-changes to appear on the published site. Existing monthly posts and home-page entries are still
-maintained manually until migrated.
+upcoming home-page entry (including its description). Do not add these by hand. Events remain on
+the home page through their event date, and leave it on the next build after that date. The
+registration link also disappears from the event page and monthly archive then. Rebuild/deploy
+manually for date changes to appear on the published site. Existing monthly posts and home-page
+entries are still maintained manually until migrated.
 
 For older monthly posts, use the existing workflow:
 

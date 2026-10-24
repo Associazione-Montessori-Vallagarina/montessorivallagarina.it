@@ -82,6 +82,8 @@ def _upcoming(events: list[Event], today: date) -> str:
         lines.extend((f"## [{event.title}]({event.path})", event.date_label, "",
                       _share_button(f"blog/{Path(event.path).stem}/"), "",
                       f"![{event.title}](blog/{event.flyer})", ""))
+        if event.description.strip():
+            lines.extend((event.description.strip(), ""))
         if event.registration_url:
             lines.extend((f'<a href="{escape(event.registration_url, quote=True)}" target="_blank">'
                           "Clicca qui per prenotarsi all'attività</a>", ""))
