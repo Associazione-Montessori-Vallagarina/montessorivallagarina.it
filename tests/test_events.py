@@ -15,7 +15,7 @@ from events import Event, _event_page, _events, _month_index, _upcoming, on_conf
 
 ROOT = Path(__file__).resolve().parents[1]
 EVENT = Event("blog/2026-11-11_genitori-senza-mantello.md", "Genitori senza mantello",
-              date(2026, 11, 11), "2026-11-07.jpg", "https://forms.gle/3P2bMHKGmZdxthgS8")
+              date(2026, 11, 11), ("2026-11-07.jpg",), "https://forms.gle/3P2bMHKGmZdxthgS8")
 
 
 class TestEvents(unittest.TestCase):
@@ -24,11 +24,11 @@ class TestEvents(unittest.TestCase):
             blog = Path(directory) / "blog"
             blog.mkdir()
             (blog / "2027-01-12_test.md").write_text(
-                "---\ntitle: Un nuovo evento\nevent_date: 2027-01-12\nflyer: locandina.jpg\n---\n"
+                "---\ntitle: Un nuovo evento\nevent_date: 2027-01-12\nflyer: [locandina.jpg]\n---\n"
                 "\nUna descrizione con **dettagli**.\n"
             )
             (blog / "2027-02-04_test.md").write_text(
-                "---\ntitle: Un altro evento\nevent_date: 2027-02-04\nflyer: locandina.jpg\n---\n"
+                "---\ntitle: Un altro evento\nevent_date: 2027-02-04\nflyer: [locandina.jpg]\n---\n"
             )
             config = MagicMock(spec=MkDocsConfig)
             config.docs_dir = directory
@@ -71,6 +71,13 @@ class TestEvents(unittest.TestCase):
         self.assertIn("Una descrizione.", expired)
         self.assertIn("2026-11-07.jpg", expired)
         self.assertIn('class="event-share"', expired)
+
+    def test_additional_flyer_appears_with_page_relative_path(self) -> None:
+        event = replace(EVENT, flyers=("2026-11-07.jpg", "2026-11-07_tea_e_chicco.jpg"))
+        self.assertIn("![Genitori senza mantello](2026-11-07_tea_e_chicco.jpg)",
+                      _event_page(event, "", EVENT.date))
+        self.assertIn("![Genitori senza mantello](blog/2026-11-07_tea_e_chicco.jpg)",
+                      _upcoming([event], date(2026, 11, 1)))
 
     def test_month_shows_full_event_even_after_date(self) -> None:
         event = replace(EVENT, description="Una descrizione con **dettagli**.")

@@ -21,7 +21,7 @@ class Event:
     path: str
     title: str
     date: date
-    flyer: str
+    flyers: tuple[str, ...]
     registration_url: str | None
     description: str = ""
 
@@ -47,14 +47,17 @@ def _events(config: MkDocsConfig) -> list[Event]:
         event_date = metadata["event_date"]
         if not isinstance(event_date, date):
             raise ValueError(f"event_date deve essere una data YYYY-MM-DD: {path}")
-        for field in ("title", "flyer"):
-            if not isinstance(metadata.get(field), str) or not metadata[field]:
-                raise ValueError(f"{field} mancante: {path}")
+        if not isinstance(metadata.get("title"), str) or not metadata["title"]:
+            raise ValueError(f"title mancante: {path}")
+        flyers = metadata.get("flyer")
+        if not isinstance(flyers, list) or not flyers or not all(
+                isinstance(flyer, str) and flyer for flyer in flyers):
+            raise ValueError(f"flyer deve contenere almeno un percorso: {path}")
         registration_url = metadata.get("registration_url")
         if registration_url is not None and not isinstance(registration_url, str):
             raise ValueError(f"registration_url non valido: {path}")
         events.append(Event(f"blog/{path.name}", metadata["title"], event_date,
-                            metadata["flyer"], registration_url, description))
+                            tuple(flyers), registration_url, description))
     return sorted(events, key=lambda event: (event.date, event.path), reverse=True)
 
 
@@ -81,7 +84,7 @@ def _upcoming(events: list[Event], today: date) -> str:
             continue
         lines.extend((f"## [{event.title}]({event.path})", event.date_label, "",
                       _share_button(f"blog/{Path(event.path).stem}/"), "",
-                      f"![{event.title}](blog/{event.flyer})", ""))
+                      *[f"![{event.title}](blog/{flyer})" for flyer in event.flyers], ""))
         if event.description.strip():
             lines.extend((event.description.strip(), ""))
         if event.registration_url:
@@ -92,7 +95,7 @@ def _upcoming(events: list[Event], today: date) -> str:
 
 def _render_event(event: Event, description: str, today: date, heading: str, share_url: str) -> str:
     lines = [heading, "", _share_button(share_url), "", event.date_label, "",
-             f"![{event.title}]({event.flyer})"]
+             *[f"![{event.title}]({flyer})" for flyer in event.flyers]]
     if description.strip():
         lines.extend(("", description.strip()))
     if event.registration_url and event.date >= today:
