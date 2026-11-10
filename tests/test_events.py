@@ -118,5 +118,5 @@ class TestEvents(unittest.TestCase):
             self.assertIsNotNone(home.css_first('script[src="js/events.js"]'))
             self.assertIsNotNone(home.css_first('link[href="css/events.css"]'))
             if date.today() <= EVENT.date:
-                self.assertEqual(home.css_first(".event-share").attributes["data-share-url"],
-                                 "blog/2026-11-11_genitori-senza-mantello/")
+                self.assertIsNotNone(home.css_first(
+                    '.event-share[data-share-url="blog/2026-11-11_genitori-senza-mantello/"]'))
