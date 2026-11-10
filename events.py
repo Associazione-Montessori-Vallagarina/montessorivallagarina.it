@@ -79,7 +79,8 @@ def _month_index(events: list[Event], today: date) -> str:
 
 def _upcoming(events: list[Event], today: date) -> str:
     lines = []
-    for event in events:
+    # Show the nearest appointment first, independently of the archive's newest-first order.
+    for event in sorted(events, key=lambda event: (event.date, event.path)):
         if event.date < today:
             continue
         lines.extend((f"## [{event.title}]({event.path})", event.date_label, "",

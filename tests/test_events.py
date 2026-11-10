@@ -57,6 +57,11 @@ class TestEvents(unittest.TestCase):
 
         self.assertEqual(_upcoming([EVENT], date(2026, 11, 12)), "")
 
+    def test_home_shows_earliest_event_first(self) -> None:
+        later = replace(EVENT, path="blog/2026-12-11_open-day-montessori.md", date=date(2026, 12, 11))
+        upcoming = _upcoming([later, EVENT], date(2026, 11, 10))
+        self.assertLess(upcoming.index(f"]({EVENT.path})"), upcoming.index(f"]({later.path})"))
+
     def test_share_button_is_compact_and_text_only(self) -> None:
         css = (ROOT / "docs/css/events.css").read_text()
         self.assertIn("font-size: 0.75rem", css)
